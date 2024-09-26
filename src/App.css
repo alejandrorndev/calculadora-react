@@ -1,5 +1,5 @@
 .App {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 10px;
   background-color: #1b1b32;
   font-family: Lato, sans-serif;
@@ -9,22 +9,10 @@
   align-items: center;
 }
 
-.freecodecamp-logo-contenedor {
-  width: 100%;
-  height: 50px;
-  margin: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.freecodecamp-logo {
-  height: 40px;
-}
-
 .contenedor-calculadora {
-  width: 400px;
-  height: 600px;
+  width: 100%; /* Ajusta la calculadora al 100% del ancho disponible */
+  max-width: 400px; /* Para que no crezca más de 400px en pantallas grandes */
+  height: auto; /* Permite que la altura crezca según el contenido */
   padding: 14px;
   background-color: #99c9ff;
   border-radius: 20px;
